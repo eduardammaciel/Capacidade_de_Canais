@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 540" width="900" height="540" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+<rect width="900" height="540" fill="white"/>
+<text x="380" y="30" text-anchor="middle" font-size="19" font-weight="bold" fill="#222">Experimento 4 – Nyquist × Shannon (B = 3 kHz, SNR = 30 dB)</text>
+<text x="380" y="52" text-anchor="middle" font-size="13" fill="#666">Pontos vermelhos: taxa de Nyquist acima do limite de Shannon (eixo N em escala log2)</text>
+<line x1="80" y1="468" x2="680" y2="468" stroke="#e3e3e3"/>
+<text x="72" y="472" text-anchor="end" font-size="12" fill="#444">0</text>
+<line x1="80" y1="369" x2="680" y2="369" stroke="#e3e3e3"/>
+<text x="72" y="373" text-anchor="end" font-size="12" fill="#444">10</text>
+<line x1="80" y1="270" x2="680" y2="270" stroke="#e3e3e3"/>
+<text x="72" y="274" text-anchor="end" font-size="12" fill="#444">20</text>
+<line x1="80" y1="171" x2="680" y2="171" stroke="#e3e3e3"/>
+<text x="72" y="175" text-anchor="end" font-size="12" fill="#444">30</text>
+<line x1="80" y1="72" x2="680" y2="72" stroke="#e3e3e3"/>
+<text x="72" y="76" text-anchor="end" font-size="12" fill="#444">40</text>
+<line x1="104" y1="72" x2="104" y2="468" stroke="#f0f0f0"/>
+<text x="104" y="488" text-anchor="middle" font-size="12" fill="#444">2</text>
+<line x1="214.4" y1="72" x2="214.4" y2="468" stroke="#f0f0f0"/>
+<text x="214.4" y="488" text-anchor="middle" font-size="12" fill="#444">4</text>
+<line x1="324.8" y1="72" x2="324.8" y2="468" stroke="#f0f0f0"/>
+<text x="324.8" y="488" text-anchor="middle" font-size="12" fill="#444">8</text>
+<line x1="435.2" y1="72" x2="435.2" y2="468" stroke="#f0f0f0"/>
+<text x="435.2" y="488" text-anchor="middle" font-size="12" fill="#444">16</text>
+<line x1="545.6" y1="72" x2="545.6" y2="468" stroke="#f0f0f0"/>
+<text x="545.6" y="488" text-anchor="middle" font-size="12" fill="#444">32</text>
+<line x1="656" y1="72" x2="656" y2="468" stroke="#f0f0f0"/>
+<text x="656" y="488" text-anchor="middle" font-size="12" fill="#444">64</text>
+<line x1="80" y1="468" x2="680" y2="468" stroke="#333" stroke-width="1.5"/>
+<line x1="80" y1="72" x2="80" y2="468" stroke="#333" stroke-width="1.5"/>
+<text x="380" y="518" text-anchor="middle" font-size="14" fill="#222">Número de níveis de sinalização (N)</text>
+<text x="22" y="270" text-anchor="middle" font-size="14" fill="#222" transform="rotate(-90 22 270)">Capacidade C (kbit/s)</text>
+<polyline points="104,408.6 214.4,349.2 324.8,289.8 435.2,230.4 545.6,171 656,111.6" fill="none" stroke="#1f77b4" stroke-width="2.5"/>
+<circle cx="104" cy="408.6" r="4.5" fill="#1f77b4" stroke="white" stroke-width="1.2"/>
+<text x="104" y="398.6" text-anchor="middle" font-size="11" fill="#1f77b4">6</text>
+<circle cx="214.4" cy="349.2" r="4.5" fill="#1f77b4" stroke="white" stroke-width="1.2"/>
+<text x="214.4" y="339.2" text-anchor="middle" font-size="11" fill="#1f77b4">12</text>
+<circle cx="324.8" cy="289.8" r="4.5" fill="#1f77b4" stroke="white" stroke-width="1.2"/>
+<text x="324.8" y="279.8" text-anchor="middle" font-size="11" fill="#1f77b4">18</text>
+<circle cx="435.2" cy="230.4" r="4.5" fill="#1f77b4" stroke="white" stroke-width="1.2"/>
+<text x="435.2" y="220.4" text-anchor="middle" font-size="11" fill="#1f77b4">24</text>
+<circle cx="545.6" cy="171" r="4.5" fill="#d62728" stroke="white" stroke-width="1.2"/>
+<text x="545.6" y="161" text-anchor="middle" font-size="11" fill="#d62728">30</text>
+<circle cx="656" cy="111.6" r="4.5" fill="#d62728" stroke="white" stroke-width="1.2"/>
+<text x="656" y="101.6" text-anchor="middle" font-size="11" fill="#d62728">36</text>
+<polyline points="104,171.97 656,171.97" fill="none" stroke="#d62728" stroke-width="2.5" stroke-dasharray="8 5"/>
+<line x1="700" y1="82" x2="730" y2="82" stroke="#1f77b4" stroke-width="2.5"/>
+<circle cx="715" cy="82" r="4" fill="#1f77b4"/>
+<text x="738" y="86" font-size="13" fill="#222">Nyquist 2B·log2(N)</text>
+<line x1="700" y1="108" x2="730" y2="108" stroke="#d62728" stroke-width="2.5" stroke-dasharray="8 5"/>
+<text x="738" y="112" font-size="13" fill="#222">Shannon (29,9 kbit/s)</text>
+</svg>
